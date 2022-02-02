@@ -1,0 +1,1 @@
+print(len("95637+12")) #terdapat len: menghitung panjang atau banyak karakter
