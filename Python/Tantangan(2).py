@@ -25,7 +25,7 @@ elif kode_hari == "minggu":
     discount = total_belanja*7/100
     print("Discount hari ini 7%")
 else:
-   print("Kode hari anda salah")
+    print("Kode hari anda salah")
 
 pay = round(total_belanja - discount)
 print("Jumlah discount : {}". format(discount))
