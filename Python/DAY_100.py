@@ -10,7 +10,8 @@ def attack(attacker,defender):
     else :
         print("Serangan Gagal! Kamu Lemah ! ",attacker["nama"])
 
-train(player1) # Latihan pertama
-train(player1) # Latihan kedua
+train(player1) # Latihan pertama player 1
+train(player1) # Latihan kedua player 1
+train(player2) # Latihan pertama player 2
 attack(player1,player2)
 
